@@ -1,0 +1,82 @@
+@media (min-width: 320px) and (max-width: 1200px) {
+    .banner-area .banner-content h1 {
+        font-size: 35px;
+    }
+    .page-header h1,
+    .section-title h2 {
+        font-size: 35px;
+        line-height: 40.28px;
+        letter-spacing: 0.15em;
+        margin-bottom: 30px;
+    }
+    .content-title {
+        font-size: 27px;
+        line-height: 36px;
+    }
+    .choose-item br{
+        display: none;
+    }
+    .most-popular {
+        width: 45%;
+        padding: 0px 10px;
+        top: 0%;
+    }
+    .counter-wrapper {
+        padding: 15px;
+    }
+    .experience-content {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 15px;
+    }
+    .testimonial-area .activaties-inner {
+      position: relative;
+      min-height: auto;
+      padding: 2rem 15px;
+      flex-direction: column;
+  }
+      .testimonial-area .testimonial-slider.owl-carousel{
+        width: 100%;
+        z-index: 1;
+        position: relative;
+        transform: translateY(0%);
+    }
+
+    .testimonial-area .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 20px;
+         position: relative; 
+         left: -0%; 
+    }
+    .header-area .search-wrapper {
+        display: none;
+    }
+    .banner-carousel .owl-dots {
+        bottom: -53%;
+    }
+    .inner-shadow-text {
+        font-size: 50px;
+    }
+    .get-touch::after {
+
+        top: -34px;
+    }
+    
+}
+@media (max-width: 991px) {
+    .login-wrapper .cover{
+      display: none;
+    }
+    .form-content .login-form,
+    .form-content .signup-form{
+      width: 100%;
+    }
+    .form-content .signup-form{
+      display: none;
+    }
+    .login-wrapper #flip:checked ~ .forms .signup-form{
+      display: block;
+    }
+    .login-wrapper #flip:checked ~ .forms .login-form{
+      display: none;
+    }
+  }
+  
